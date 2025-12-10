@@ -204,11 +204,16 @@ text-aligh: center;
    box-sizing: border-box;
    border: none;
    border-bottom:1px solid #ccc;
+   background-color: transparent;
    color: #0f141e;
    padding: 15px ;
    outline:none;
    font-family:inherit;
 
+}
+.form-group textarea{
+    height: 45px;
+    resize: none;
 }
 .row {
    display:flex;
